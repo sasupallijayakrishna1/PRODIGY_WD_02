@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.stopwatch {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.stopwatch:hover {
+    transform: scale(1.05);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.start {
+    background-color: #28a745;
+    color: white;
+}
+
+.start:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+}
+
+.pause {
+    background-color: #ffc107;
+    color: white;
+}
+
+.pause:hover {
+    background-color: #e0a800;
+    transform: translateY(-3px);
+}
+
+.reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+}
+
+.lap {
+    background-color: #007bff
+}
+
+.main{
+    
+    position: absolute;
+    top: 40px;
+}
+.main h1{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     
+}
